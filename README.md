@@ -410,7 +410,7 @@
         <!-- Slide 4: ChatGPT vs Personalized AI -->
         <div class="slide">
             <div class="slide-content">
-                <h2>ChatGPT или цифровой двойник</h2>
+                <h2>ChatGPT или ЦИФРОВОЙ ДВОЙНИК</h2>
                 
                 <div class="comparison-container">
                     <div class="comparison-side bad">
@@ -656,7 +656,7 @@
         <!-- Slide 9: "Humanization" Process -->
         <div class="slide">
             <div class="slide-content">
-                <h2>Процесс "очеловечивания"</h2>
+                <h2>Процесс "Очеловечивания"</h2>
                 <h3>Как мы убираем "AI-запах"</h3>
                 
                 <div class="comparison-container">
