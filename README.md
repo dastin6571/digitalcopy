@@ -16,6 +16,7 @@
             background: #0a0a0a;
             color: #ffffff;
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
 
         .slide-container {
@@ -333,11 +334,13 @@
 
         /* CTA Slide Title */
         .cta-title {
-            color: white !important;
+            color: #ffffff !important;
             font-size: clamp(2.5rem, 6vw, 4.5rem);
             margin-bottom: 40px;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7),
+                         0 0 15px rgba(0,0,0,0.5);
             font-weight: 900;
+            letter-spacing: 1px;
         }
 
         /* Responsive */
@@ -364,30 +367,8 @@
             <div class="slide-content">
                 <h1 class="main-title">ЦИФРОВОЙ ДВОЙНИК</h1>
                 <p class="main-subtitle">Персонализированный AI, который пишет КАК ВЫ.<br>Не как ChatGPT для всех.</p>
-            </div>
-        </div>
-
-        <!-- Slide 2: Problem Context -->
-        <div class="slide">
-            <div class="slide-content">
-                <h2>Проблема, которую признала даже OpenAI</h2>
-                
-                <div class="research-card">
-                    <h4>📊 Август 2025: OpenAI откатила GPT-5</h4>
-                    <p><span class="bad-text">Причина:</span> Массовые жалобы пользователей на <span class="highlight">"роботизированность и неискренность"</span> текстов.</p>
-                    <p>Компания с миллиардными инвестициями <span class="bad-text">не смогла</span> решить проблему "человечности" в AI-текстах.</p>
-                </div>
-
-                <div class="research-card">
-                    <h4>📊 Апрель 2025: ChatGPT обвиняют в "подхалимстве"</h4>
-                    <p>После обновления система стала <span class="bad-text">"излишне вежливой"</span>, пользователи жалуются на льстивость и согласие со всем.</p>
-                    <p>OpenAI снова откатила обновление из-за критики.</p>
-                </div>
-
-                <div class="research-card">
-                    <h4>📊 Июль 2025: "Язык ChatGPT заразителен"</h4>
-                    <p>Исследование университетов: ChatGPT <span class="bad-text">меняет язык людей</span>, они начинают писать шаблонно и структурированно.</p>
-                    <p>Эксперты обеспокоены <span class="highlight">потерей индивидуальности</span> в письменной речи.</p>
+                <div style="text-align: center; margin-top: 60px;">
+                    <a href="#demo-slide" style="display: inline-block; padding: 20px 50px; background: rgba(255,255,255,0.2); color: #ffffff; text-decoration: none; font-size: 1.5rem; border-radius: 50px; border: 2px solid rgba(255,255,255,0.4); transition: all 0.3s; backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255,255,255,0.3)'; this.style.borderColor='rgba(255,255,255,0.6)'" onmouseout="this.style.background='rgba(255,255,255,0.2)'; this.style.borderColor='rgba(255,255,255,0.4)'">Получить демо</a>
                 </div>
             </div>
         </div>
@@ -395,7 +376,7 @@
         <!-- Slide 3: Market Pain -->
         <div class="slide">
             <div class="slide-content">
-                <h2>Три боли экспертов в 2025 году</h2>
+                <h2>Вам знакомо это?</h2>
                 
                 <div class="problem-grid">
                     <div class="problem-card">
@@ -429,7 +410,7 @@
         <!-- Slide 4: ChatGPT vs Personalized AI -->
         <div class="slide">
             <div class="slide-content">
-                <h2>ChatGPT vs Цифровой Двойник</h2>
+                <h2>ChatGPT или цифровой двойник</h2>
                 
                 <div class="comparison-container">
                     <div class="comparison-side bad">
@@ -465,7 +446,7 @@
                     </div>
 
                     <div class="comparison-side good">
-                        <h3>✅ Цифровой Двойник</h3>
+                        <h3>✅ Цифровой двойник</h3>
                         
                         <div class="comparison-item">
                             <p><strong>Для кого:</strong> Только для вас</p>
@@ -502,7 +483,7 @@
         <!-- Slide 5: How It Works - Overview -->
         <div class="slide">
             <div class="slide-content">
-                <h2>Как создаётся ваш Цифровой Двойник</h2>
+                <h2>Как создаётся ваш цифровой двойник</h2>
                 
                 <div class="stats-grid">
                     <div class="stat-card">
@@ -581,21 +562,21 @@
                         <span class="step-number">4</span>
                         <h4>Тон и эмоциональность</h4>
                         <div class="step-content">
-                            <p>• Уровень формальности: деловой или дружеский?</p>
-                            <p>• Эмоциональная насыщенность: много восклицаний или сдержанность?</p>
-                            <p>• Категоричность: "всегда/никогда" или "часто/иногда"?</p>
-                            <p>• Использование юмора: есть ли? Какой (сарказм, ирония)?</p>
+                            <p>• Общий тон: формальный, дружеский, провокационный, вдохновляющий?</p>
+                            <p>• Уровень эмоциональности: сдержанный или экспрессивный</p>
+                            <p>• Как выражаете несогласие или критику</p>
+                            <p>• Юмор: есть ли, какой (ирония, сарказм, лёгкость)</p>
                         </div>
                     </div>
 
                     <div class="step">
                         <span class="step-number">5</span>
-                        <h4>Аргументация и логика</h4>
+                        <h4>Обращение к аудитории</h4>
                         <div class="step-content">
-                            <p>• Тип доказательств: истории, статистика, логика, примеры?</p>
-                            <p>• Соотношение: 70% историй + 25% примеры + 15% статистика</p>
-                            <p>• Как работаете с возражениями: предвосхищаете, игнорируете, разбираете?</p>
-                            <p>• Призывы к действию: прямые или мягкие?</p>
+                            <p>• На "ты" или "вы"</p>
+                            <p>• Прямые обращения: "послушайте", "друзья", "коллеги"</p>
+                            <p>• Вовлечение: задаёте вопросы, просите поделиться опытом?</p>
+                            <p>• Как создаёте близость с читателем</p>
                         </div>
                     </div>
 
@@ -621,56 +602,49 @@
                 
                 <div class="checklist">
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
-                        <div>
-                            <strong>Детектор AI:</strong> Текст должен показывать "написано человеком" минимум в 85% случаев
-                        </div>
-                    </div>
-
-                    <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Устранение структурированности:</strong> AI любит делить на введение-основную часть-заключение. Мы ломаем эту структуру под ваш естественный стиль
                         </div>
                     </div>
 
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Проверка клише:</strong> Удаляем типичные AI-фразы ("в современном мире", "подводя итог", "важно отметить")
                         </div>
                     </div>
 
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Ритм речи:</strong> Проверяем, что предложения неравномерной длины (как у человека), а не идеально сбалансированы
                         </div>
                     </div>
 
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Фирменные выражения:</strong> Ваши маркерные слова должны появляться с правильной частотой
                         </div>
                     </div>
 
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Эмоциональность:</strong> ChatGPT либо слишком сдержан, либо излишне восторжен. Мы настраиваем под ваш реальный тон
                         </div>
                     </div>
 
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Естественные "неровности":</strong> Добавляем живые элементы: недосказанность, отступления, риторические вопросы
                         </div>
                     </div>
 
                     <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
+                        <span class="checklist-icon">✔</span>
                         <div>
                             <strong>Сравнение с оригиналом:</strong> Каждый текст сравнивается с вашими реальными постами — попадание должно быть 90%+
                         </div>
@@ -689,7 +663,7 @@
                     <div class="comparison-side bad">
                         <h3>❌ Типичные AI-маркеры</h3>
                         
-                        <p><strong>1. Излишняя структурированность</strong></p>
+                        <p><strong>1. Излишняя структурированость</strong></p>
                         <p class="bad-text">"Во-первых... Во-вторых... В-третьих... В заключение..."</p>
                         <br>
                         
@@ -773,35 +747,6 @@
 
                     <div class="step">
                         <span class="step-number">4</span>
-                        <h4>Тональный профиль</h4>
-                        <div class="step-content">
-                            <p>Уровень формальности: 6/10 (дружеский, но профессиональный)</p>
-                            <p>Эмоциональность: умеренная, без восклицаний</p>
-                            <p>Категоричность: 4/10 (больше "часто" чем "всегда")</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 11: Profile Creation Part 2 -->
-        <div class="slide">
-            <div class="slide-content">
-                <h2>Что ещё в профиле</h2>
-                
-                <div class="process-steps">
-                    <div class="step">
-                        <span class="step-number">5</span>
-                        <h4>Аргументационная модель</h4>
-                        <div class="step-content">
-                            <p>Типы доказательств: 60% истории + 25% примеры + 15% статистика</p>
-                            <p>Как работаете с возражениями: предвосхищаете и разбираете</p>
-                            <p>Призывы к действию: мягкие, через вопросы ("А вы как думаете?")</p>
-                        </div>
-                    </div>
-
-                    <div class="step">
-                        <span class="step-number">6</span>
                         <h4>Метафорический словарь</h4>
                         <div class="step-content">
                             <p>Источники образов: 70% спорт, 20% бизнес, 10% кино</p>
@@ -811,7 +756,7 @@
                     </div>
 
                     <div class="step">
-                        <span class="step-number">7</span>
+                        <span class="step-number">5</span>
                         <h4>Табу (что НИКОГДА не делаете)</h4>
                         <div class="step-content">
                             <p>❌ Не используете нумерованные списки</p>
@@ -822,11 +767,33 @@
                     </div>
 
                     <div class="step">
-                        <span class="step-number">8</span>
+                        <span class="step-number">6</span>
                         <h4>Эталонные примеры</h4>
                         <div class="step-content">
                             <p>10-15 характерных отрывков из ваших реальных текстов</p>
                             <p>С пометками: "Типичное начало", "Характерный переход", "Ваша концовка"</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span class="step-number">7</span>
+                        <h4>Тональный профиль</h4>
+                        <div class="step-content">
+                            <p>Эмоциональная окраска: формальный, дружеский, провокационный</p>
+                            <p>Уровень экспрессии: сдержанный или яркий</p>
+                            <p>Как выражаете критику и несогласие</p>
+                            <p>Наличие и тип юмора (ирония, сарказм, лёгкость)</p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <span class="step-number">8</span>
+                        <h4>Аргументационная модель</h4>
+                        <div class="step-content">
+                            <p>Как вы доказываете: через факты, истории, логику, эмоции?</p>
+                            <p>Соотношение: 40% истории, 30% логика, 30% эмоции</p>
+                            <p>Используете ли цифры и статистику</p>
+                            <p>Как работаете с возражениями</p>
                         </div>
                     </div>
                 </div>
@@ -843,7 +810,7 @@
                         <span class="step-number">1</span>
                         <h4>Генерация тестовых постов</h4>
                         <div class="step-content">
-                            <p>Создаём 15-20 постов на разные темы</p>
+                            <p>Создаём 10-15 постов на разные темы</p>
                             <p>Разной длины (короткие, средние, длинные)</p>
                             <p>В разных форматах (истории, аналитика, мнение)</p>
                         </div>
@@ -871,66 +838,17 @@
 
                     <div class="step">
                         <span class="step-number">4</span>
-                        <h4>Финальная проверка</h4>
+                        <h4>Итоговое подтверждение</h4>
                         <div class="step-content">
-                            <p>Цель: вы не можете отличить сгенерированный текст от своего</p>
-                            <p>Попадание в стиль: минимум 90-95%</p>
-                            <p>Детектор AI: показывает "человек" в 85%+ случаев</p>
+                            <p>Когда скажете "да, это звучит как я"</p>
+                            <p>Финализируем профиль</p>
+                            <p>Начинаем работу</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 13: Results -->
-        <div class="slide">
-            <div class="slide-content">
-                <h2>Что вы получаете на выходе</h2>
-                
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-number">40</div>
-                        <div class="stat-label">часов экономии каждый месяц</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">90%+</div>
-                        <div class="stat-label">попадание в ваш стиль</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">3×</div>
-                        <div class="stat-label">больше контента без усилий</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">10</div>
-                        <div class="stat-label">минут на правку вместо 2 часов на написание</div>
                     </div>
                 </div>
 
                 <div class="quote">
                     "Аудитория не заметит разницы. Вы останетесь собой. Просто будете везде."
-                </div>
-
-                <div class="checklist">
-                    <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
-                        <div><strong>Стилистический профиль</strong> (8-12 страниц) — ваша интеллектуальная собственность</div>
-                    </div>
-                    <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
-                        <div><strong>Работающая система</strong> генерации контента в вашем стиле</div>
-                    </div>
-                    <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
-                        <div><strong>Чек-лист проверки</strong> из 20 пунктов — сможете контролировать качество сами</div>
-                    </div>
-                    <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
-                        <div><strong>Инструкции</strong> по работе с системой и обновлению профиля</div>
-                    </div>
-                    <div class="checklist-item">
-                        <span class="checklist-icon">✓</span>
-                        <div><strong>Ежемесячная калибровка</strong> — ваш стиль эволюционирует, профиль тоже</div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -983,6 +901,8 @@
                     </div>
                 </div>
 
+                <div style="margin-top: 80px;"></div>
+
                 <div class="research-card">
                     <h4>🔥 Август 2025: Блогеры протестуют против AI</h4>
                     <p>YouTube начал тайно улучшать контент через AI. Блогеры ополчились: <span class="bad-text">"Это убивает нашу аутентичность!"</span></p>
@@ -997,54 +917,6 @@
 
                 <div class="quote">
                     "Вопрос не в том, использовать ли AI. А в том, КАК использовать его правильно. СЕЙЧАС."
-                </div>
-            </div>
-        </div>
-
-        <!-- Slide 16: Problem Solved -->
-        <div class="slide">
-            <div class="slide-content">
-                <h2>Проблема, которую не решил никто</h2>
-                <h3>Даже OpenAI с миллиардами</h3>
-                
-                <div class="comparison-container">
-                    <div class="comparison-side bad">
-                        <h3>❌ Что НЕ работает</h3>
-                        
-                        <p><strong>ChatGPT "в лоб"</strong></p>
-                        <p class="bad-text">Пишете промт → получаете шаблон → аудитория чувствует</p>
-                        <br>
-                        
-                        <p><strong>"Хорошие промты"</strong></p>
-                        <p class="bad-text">Даже с детальным промтом ChatGPT не знает ВАШ стиль</p>
-                        <br>
-                        
-                        <p><strong>Копирайтеры</strong></p>
-                        <p class="bad-text">Не могут передать ваш голос, как ни объясняй</p>
-                        <br>
-                        
-                        <p><strong>Писать самому</strong></p>
-                        <p class="bad-text">40+ часов в месяц → выгорание → нерегулярность</p>
-                    </div>
-
-                    <div class="comparison-side good">
-                        <h3>✅ Что работает</h3>
-                        
-                        <p><strong>Персонализированная система</strong></p>
-                        <p class="good-text">15-20 часов работы → профиль → система, которая пишет КАК ВЫ</p>
-                        <br>
-                        
-                        <p><strong>Глубокий анализ</strong></p>
-                        <p class="good-text">Изучаем часы вашего контента, находим уникальные паттерны</p>
-                        <br>
-                        
-                        <p><strong>Многоуровневый контроль</strong></p>
-                        <p class="good-text">Детектор AI + чек-лист 20 пунктов + ваша правка</p>
-                        <br>
-                        
-                        <p><strong>Результат</strong></p>
-                        <p class="good-text">Публикуете в 3 раза больше, оставаясь собой</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1075,15 +947,7 @@
                         <span class="checklist-icon">✨</span>
                         <div>
                             <strong>Гарантия качества</strong><br>
-                            Каждый текст проверяется детектором AI. Должен показывать "человек". Если нет — переделываем бесплатно.
-                        </div>
-                    </div>
-
-                    <div class="checklist-item">
-                        <span class="checklist-icon">🔄</span>
-                        <div>
-                            <strong>Гарантия поддержки</strong><br>
-                            Первый месяц — безлимитные правки и корректировки. Вы должны быть довольны на 100%.
+                            Вы сами оцениваете: звучит как вы или нет. Если что-то не так — переделываем бесплатно, пока не скажете "да, это моё".
                         </div>
                     </div>
                 </div>
@@ -1091,23 +955,29 @@
         </div>
 
         <!-- Slide 18: Call to Action -->
-        <div class="slide title-slide">
+        <div class="slide title-slide" id="demo-slide">
             <div class="slide-content">
-                <h2 class="cta-title">Готовы увидеть вашего Цифрового Двойника?</h2>
+                <h2 class="cta-title">Готовы увидеть вашего цифрового двойника?</h2>
                 
                 <div class="quote">
                     <h3 style="color: #ffd700; margin-bottom: 20px;">Бесплатное демо</h3>
-                    <p>✓ Мы возьмём 2-3 часа ваших материалов</p>
-                    <p>✓ Создадим экспресс-профиль</p>
-                    <p>✓ Сгенерируем 3 поста в вашем стиле</p>
-                    <p>✓ Вы оцените: "Похоже или нет?"</p>
+                    <p>✔ Мы возьмём 2-3 часа ваших материалов</p>
+                    <p>✔ Создадим экспресс-профиль</p>
+                    <p>✔ Сгенерируем 3 поста в вашем стиле</p>
+                    <p>✔ Вы оцените: "Похоже или нет?"</p>
                     <br>
                     <p style="font-size: 1.5rem; color: #ffd700;">Никаких обязательств. Никаких предоплат.</p>
                 </div>
 
                 <div style="text-align: center; margin-top: 50px;">
-                    <p style="font-size: 1.8rem; margin-bottom: 20px;">Напишите "Хочу демо"</p>
-                    <p style="font-size: 1.3rem; opacity: 0.9;">Telegram / WhatsApp / Email</p>
+                    <p style="font-size: 1.8rem; margin-bottom: 30px;">Напишите "Хочу демо"</p>
+                    <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+                        <a href="https://t.me/nitro6565" target="_blank" style="display: inline-block; padding: 15px 35px; background: rgba(255,255,255,0.1); color: #ffffff; text-decoration: none; font-size: 1.3rem; border-radius: 30px; border: 2px solid rgba(255,255,255,0.3); transition: all 0.3s; backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.borderColor='rgba(255,255,255,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.borderColor='rgba(255,255,255,0.3)'">📱 Telegram</a>
+                        
+                        <a href="https://wa.me/79038411376" target="_blank" style="display: inline-block; padding: 15px 35px; background: rgba(255,255,255,0.1); color: #ffffff; text-decoration: none; font-size: 1.3rem; border-radius: 30px; border: 2px solid rgba(255,255,255,0.3); transition: all 0.3s; backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.borderColor='rgba(255,255,255,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.borderColor='rgba(255,255,255,0.3)'">💬 WhatsApp</a>
+                        
+                        <a href="mailto:andrey293@mail.ru?subject=Хочу демо цифрового двойника" style="display: inline-block; padding: 15px 35px; background: rgba(255,255,255,0.1); color: #ffffff; text-decoration: none; font-size: 1.3rem; border-radius: 30px; border: 2px solid rgba(255,255,255,0.3); transition: all 0.3s; backdrop-filter: blur(10px);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.borderColor='rgba(255,255,255,0.5)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'; this.style.borderColor='rgba(255,255,255,0.3)'">✉️ Email</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1124,28 +994,9 @@
                     
                     Потому что они пытаются создать систему для ВСЕХ.<br><br>
                     
-                    А мы создаём систему для ВАС.<br><br>
+                    А мы создаём систему лично для ВАС.<br><br>
                     
                     В этом вся разница."
-                </div>
-
-                <div class="stats-grid" style="margin-top: 60px;">
-                    <div class="stat-card">
-                        <div class="stat-number">∞</div>
-                        <div class="stat-label">OpenAI потратила на попытку решить проблему</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">0</div>
-                        <div class="stat-label">результат (откатили релиз)</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">15-20</div>
-                        <div class="stat-label">часов работы над ВАШИМ профилем</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">90%+</div>
-                        <div class="stat-label">попадание в ваш стиль</div>
-                    </div>
                 </div>
 
                 <div class="quote" style="margin-top: 60px; background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);">
@@ -1158,46 +1009,61 @@
     </div>
 
     <div class="slide-nav">
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
-        <div class="nav-dot"></div>
+        <div class="nav-dot"></div><!-- 1 -->
+        <div class="nav-dot"></div><!-- 2 -->
+        <div class="nav-dot"></div><!-- 3 -->
+        <div class="nav-dot"></div><!-- 4 -->
+        <div class="nav-dot"></div><!-- 5 -->
+        <div class="nav-dot"></div><!-- 6 -->
+        <div class="nav-dot"></div><!-- 7 -->
+        <div class="nav-dot"></div><!-- 8 -->
+        <div class="nav-dot"></div><!-- 9 -->
+        <div class="nav-dot"></div><!-- 10 -->
+        <div class="nav-dot"></div><!-- 11 -->
+        <div class="nav-dot"></div><!-- 12 -->
+        <div class="nav-dot"></div><!-- 13 -->
+        <div class="nav-dot"></div><!-- 14 -->
+        <div class="nav-dot"></div><!-- 15 -->
     </div>
 
     <script>
         // Smooth scroll navigation
         const dots = document.querySelectorAll('.nav-dot');
         const slides = document.querySelectorAll('.slide');
+        const container = document.querySelector('.slide-container');
         
+        // Клик по точкам навигации
         dots.forEach((dot, index) => {
             dot.addEventListener('click', () => {
                 slides[index].scrollIntoView({ behavior: 'smooth' });
             });
         });
 
-        // Update active dot on scroll
-        const container = document.querySelector('.slide-container');
-        container.addEventListener('scroll', () => {
+        // Обновление активной точки при скролле
+        function updateActiveDot() {
             const scrollPos = container.scrollTop;
-            const slideHeight = window.innerHeight;
-            const currentSlide = Math.round(scrollPos / slideHeight);
+            const viewportHeight = window.innerHeight;
+            const scrollCenter = scrollPos + (viewportHeight / 2);
             
+            let activeIndex = 0;
+            let minDistance = Infinity;
+            
+            // Находим слайд, чей центр ближе всего к центру экрана
+            slides.forEach((slide, index) => {
+                const slideTop = slide.offsetTop;
+                const slideHeight = slide.offsetHeight;
+                const slideCenter = slideTop + (slideHeight / 2);
+                const distance = Math.abs(scrollCenter - slideCenter);
+                
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    activeIndex = index;
+                }
+            });
+            
+            // Обновляем стили точек
             dots.forEach((dot, index) => {
-                if (index === currentSlide) {
+                if (index === activeIndex) {
                     dot.style.background = 'rgba(255, 255, 255, 1)';
                     dot.style.transform = 'scale(1.3)';
                 } else {
@@ -1205,7 +1071,17 @@
                     dot.style.transform = 'scale(1)';
                 }
             });
+        }
+        
+        // Отслеживание скролла с дебаунсингом для производительности
+        let scrollTimeout;
+        container.addEventListener('scroll', () => {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(updateActiveDot, 10);
         });
+        
+        // Инициализация при загрузке
+        updateActiveDot();
     </script>
 </body>
 </html>
